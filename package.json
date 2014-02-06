@@ -1,0 +1,19 @@
+{
+  "name": "riak-dev-helpers",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riakpbc": "~1.2.3",
+    "underscore": "~1.5.2",
+    "async": "~0.2.10"
+  },
+  "bin": {
+    "rdh": "./bin/riak-dev-helpers.js"
+  }
+}
