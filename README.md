@@ -1,3 +1,10 @@
+# CLI helpers for riak when you're developing a riak based app
+
+```
+npm install -g riak-dev-helpers
+```
+
+
 ### Destroy everything
 
 ```
