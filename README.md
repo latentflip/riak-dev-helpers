@@ -18,3 +18,10 @@ rdh destroy
 ```
 rdh count
 ```
+
+### List all buckets and contents
+
+
+```
+rdh list
+```
