@@ -2,7 +2,6 @@
   "name": "riak-dev-helpers",
   "version": "0.2.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +10,15 @@
   "dependencies": {
     "riakpbc": "~1.2.3",
     "underscore": "~1.5.2",
-    "async": "~0.2.10"
+    "async": "~0.2.10",
+    "colors": "^0.6.2"
   },
   "bin": {
     "rdh": "./bin/riak-dev-helpers.js"
+  },
+  "devDependencies": {
+    "riakpbc": "^1.2.6",
+    "lab": "^1.9.0",
+    "sinon": "^1.9.0"
   }
 }
